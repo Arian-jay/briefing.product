@@ -47,10 +47,32 @@ nav a:hover {
 }
 
 .responsive-image {
-    width: 100%;
+    width: 80%;
+    max-width: 600px;
     height: auto;
     border-radius: 8px;
 }
+
+.infographic-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.responsive-image {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.infographic-text {
+    flex: 1;
+}
+
+
 
 .animated-icon {
     font-size: 100px;
